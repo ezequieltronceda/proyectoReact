@@ -1,6 +1,7 @@
 import React from 'react'
 import logotipo from "../../images/Logotipo.png"
-import carritoImg from "../../images/carrito.png"
+import { CartWidget } from './CartWidget'
+
 export const Navbar = () => {
   return (
     
@@ -12,7 +13,7 @@ export const Navbar = () => {
             <li> Serums </li>
             
         </ul>
-        <img src={carritoImg} alt="" className='cartImg' /><span className='carritoCant'>4</span>
+        <CartWidget></CartWidget>
     </nav>
   )
 }

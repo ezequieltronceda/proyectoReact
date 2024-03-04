@@ -34,21 +34,18 @@ nav ul li {
   left: 5%;
 }
 
-.carritoCant {
-  position: absolute;
-  z-index: 2;
-  right: 4%;
-  top: 7%;
+.cartContainer {
+  display: flex;
+  padding-right: 10px;
+}
+.cartContainer span {
+  align-self: flex-end;
   background-color: rgb(255, 0, 0);
   text-align: center;
   width: 21px;
-  border-radius: 10px;
-}
-
-.cartImg {
-  width: 45px;
   position: relative;
-  right: 5%;
+  right: 20%;
+  border-radius: 10px;
 }
 
 .prdDescription {
