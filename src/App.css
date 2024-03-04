@@ -37,8 +37,8 @@ nav ul li {
 .carritoCant {
   position: absolute;
   z-index: 2;
-  right: 40px;
-  top: 50px;
+  right: 4%;
+  top: 7%;
   background-color: rgb(255, 0, 0);
   text-align: center;
   width: 21px;
